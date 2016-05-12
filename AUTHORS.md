@@ -13,3 +13,6 @@ Contributors
  * [Russell Toris](rctoris@wpi.edu)
  * [Alex Henning](alex@thoriumrobotics.com)
  * [Mathijs de Langen](langen@robot-rose.nl)
+Note
+----
+* These guys are awesome
