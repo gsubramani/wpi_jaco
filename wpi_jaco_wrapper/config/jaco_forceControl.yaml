@@ -1,0 +1,19 @@
+# Calibration file containing ros parameters
+kinova_forceControl:
+ # Inertia
+ Inertia:
+  X: 6.36
+  Y: 11.14
+  Z: 19.10
+  ThetaX: 0.21
+  ThetaY: 0.21
+  ThetaZ: 0.21
+ Damping:
+  X: 18.18
+  Y: 31.82
+  Z: 54.55
+  ThetaX: 0.85
+  ThetaY: 0.85
+  ThetaZ: 0.85
+ 
+

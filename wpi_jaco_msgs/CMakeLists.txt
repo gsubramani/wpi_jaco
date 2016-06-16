@@ -27,6 +27,9 @@ add_service_files(
   GetCartesianPosition.srv
   JacoFK.srv
   QuaternionToEuler.srv
+  # adding force control
+  SetForceControl.srv
+  ConfigCartesianInertiaDamping.srv
 )
 
 ## Generate actions in the 'action' folder

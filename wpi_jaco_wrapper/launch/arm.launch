@@ -4,6 +4,7 @@
   <arg name="kinova_gripper" default="true" />
 
   <rosparam command="load" file="$(find wpi_jaco_wrapper)/config/$(arg arm_name).yaml"/>
+  <rosparam command="load" file="$(find wpi_jaco_wrapper)/config/$(arg arm_name)_forceControl.yaml"/>
   
   <node name="jaco_arm_trajectory_node" pkg="wpi_jaco_wrapper" type="jaco_arm_trajectory_node" output="screen">
     <param name="home_arm_on_init" value="$(arg home_arm_on_init)" />
